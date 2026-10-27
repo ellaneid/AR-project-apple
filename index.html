@@ -38,11 +38,14 @@
   </div>
 
   <!-- The object: hidden until you reach the spot. "View in AR" places it on the ground. -->
-  <model-viewer id="model" src="apple_ver2.glb" alt="Hidden object"
-                ar ar-modes="webxr scene-viewer quick-look" ar-placement="floor"
-                camera-controls auto-rotate shadow-intensity="1">
+  <model-viewer id="model" src="apple_model.glb" alt="Hidden object"
+              ar ar-modes="webxr scene-viewer quick-look" ar-placement="floor"
+              camera-controls autoplay animation-name="Action" shadow-intensity="1">
     <button slot="ar-button" id="ar">View in AR</button>
   </model-viewer>
+
+
+  
 
   <script>
     // ── YOUR SPOT: change these ──────────────────────────────
