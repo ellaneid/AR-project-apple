@@ -2,5 +2,5 @@
 - by Ella and Jules
 - Live page: https://ellaneid.github.io/AR-project-apple/
 - Coordinates: lat: 39.999934, lon: -83.010777
-- We wanted our "apple" object to emulate an object that someone would pick up in a video game, placing it under a tree as if it fell from it.
+- We wanted our "apple" object to emulate an object that someone would pick up in a video game, placing it under a tree as if it fell from it. Our map shows a woodland fantasy version of the oval, with extra items for the player to "pick up" as they forage.
 - <img width="1170" height="2532" alt="IMG_9714" src="https://github.com/user-attachments/assets/0a3becbc-caeb-40c7-9e81-d7ffe015cc45" />
