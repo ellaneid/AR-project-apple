@@ -2,5 +2,5 @@
 - by Ella and Jules
 - Live page: https://ellaneid.github.io/AR-project-apple/
 - Coordinates: lat: 39.999934, lon: -83.010777
-- We wanted our "apple" object to emulate an object that someone would pick up in a video game, placing it under a tree as if it fell from it. Our map shows a woodland fantasy version of the oval, with extra items for the player to "pick up" as they forage.
+- For this project, we wanted to emulate a cozy fantasy video game where players go around picking up foraged items on the Oval. We wanted our first "apple" object to emulate video game animations; typically objects that players should pick up will bob up and down or slowly spin. I incorporated this into the object so that users would feel like they're in a game. For the map portion of this project, we wanted to continue with the same aesthetic by using warm colors and adding a cute, fantasy character that users "play" as. For the remaining objects on the map, we made items that a woodland creature might forage, such as nuts and leaves, and placed them throughout the map. We also drew over the Oval with animal footprints instead of trails and a waterfall in place of the main walkway to add to the overall theme. 
 - <img width="1170" height="2532" alt="IMG_9714" src="https://github.com/user-attachments/assets/0a3becbc-caeb-40c7-9e81-d7ffe015cc45" />
