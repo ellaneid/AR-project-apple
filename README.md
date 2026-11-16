@@ -6,6 +6,4 @@
 - <img width="1170" height="2532" alt="IMG_9714" src="https://github.com/user-attachments/assets/0a3becbc-caeb-40c7-9e81-d7ffe015cc45" />
 - <img width="2360" height="1640" alt="Horizontal map" src="https://github.com/user-attachments/assets/682edecf-6430-44e5-ba82-de5f5acbaf8f" />
 
-Demo Video:
-<video src="demo-video.mp4" controls></video>
 
