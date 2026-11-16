@@ -7,5 +7,5 @@
 - <img width="2360" height="1640" alt="Horizontal map" src="https://github.com/user-attachments/assets/682edecf-6430-44e5-ba82-de5f5acbaf8f" />
 
 Demo Video:
-<video src="[path/to/video](https://github.com/user-attachments/assets/7fba9025-e4ee-4f43-967e-e90af0106734).mp4" controls></video>
+<video src="https://github.com/user-attachments/assets/7fba9025-e4ee-4f43-967e-e90af0106734.mp4" controls></video>
 
