@@ -1,51 +1,11 @@
-# Found on the Oval — Starter
+- Apple on the Oval
+- by Ella and Jules
+- Live page: https://ellaneid.github.io/AR-project-apple/
+- Coordinates: lat: 39.999934, lon: -83.010777
+- For this project, we wanted to emulate a cozy fantasy video game where players go around picking up foraged items on the Oval. We wanted our first "apple" object to emulate video game animations; typically objects that players should pick up will bob up and down or slowly spin. I incorporated this into the object so that users would feel like they're in a game. For the map portion of this project, we wanted to continue with the same aesthetic by using warm colors and adding a cute, fantasy character that users "play" as. For the remaining objects on the map, we made items that a woodland creature might forage, such as nuts and leaves, and placed them throughout the map. We also drew over the Oval with animal footprints instead of trails and a waterfall in place of the main walkway to add to the overall theme. 
+- <img width="1170" height="2532" alt="IMG_9714" src="https://github.com/user-attachments/assets/0a3becbc-caeb-40c7-9e81-d7ffe015cc45" />
+- <img width="2360" height="1640" alt="Horizontal map" src="https://github.com/user-attachments/assets/682edecf-6430-44e5-ba82-de5f5acbaf8f" />
 
-DESIGN 4106 · Intro to AR Training 2
+Demo Video:
+<video src="https://github.com/user-attachments/assets/7fba9025-e4ee-4f43-967e-e90af0106734.mp4" controls></video>
 
-![screenshot](screenshot.png)
-
-A .glb stays locked until your phone's GPS says you are at the spot. Then it opens in [model-viewer](https://modelviewer.dev), with a **View in AR** button. One HTML file, no install.
-
-Demo: [http://go.osu.edu/geo-starter](http://go.osu.edu/geo-starter)
-
-## Test on your computer (VS Code + Live Server)
-
-1. Open the project folder in VS Code
-2. Make sure you have the **Live Server** extension (Extensions panel → search "Live Server" → Install)
-3. Right-click `index.html` → **Open with Live Server**
-4. Add `?fake` to the address (e.g. `http://127.0.0.1:5500/index.html?fake`) and click Start. It simulates walking in from 60 m.
-
-## Test on location (GitHub Pages)
-
-1. Push your project to your GitHub repo
-2. On the repo page: **Settings → Pages → Source: Deploy from a branch → `main` / `(root)` → Save**
-3. Wait a minute, then open `https://<your-username>.github.io/<your-repo>/` on your phone
-4. Tap Start and allow location. Walk to your spot.
-
-Each time you push, the page updates within a minute or two.
-
-## Edit
-
-| File | What |
-|---|---|
-| `index.html` → `TARGET` | your spot's latitude/longitude |
-| `index.html` → `RADIUS` | how close (metres) before it opens |
-| `models/object.glb` | your model (replace the placeholder, keep the name) |
-
-**Finding your coordinates:** stand on your spot with the page open; it prints your live coordinates. Wait for ±10 m or better, then paste them into `TARGET`.
-
-## How it works
-
-```js
-navigator.geolocation.watchPosition(onPosition);   // GPS listener
-// in onPosition: if distance to TARGET < RADIUS → show <model-viewer>
-```
-
-## My project Deliverables
-
-- **Title**
-- **Live page: your url**
-- **Coordinates: your spot coordinates**
-- **Intent: in one line -- how does your 3d object respond to the qualities of the spot**
-- **Screenshot: .png or .jpg**
-- **SUBMIT ON CARMEN -- Video: .mp4, stable shot, < 2 min.**
